@@ -17,5 +17,8 @@ module.exports = {
       use: ['babel-loader?cacheDirectory=true'],
       include: path.join(__dirname, 'src')
     }]
+  },
+  devServer: {
+    contentBase: path.join(__dirname, './dist')
   }
 };
