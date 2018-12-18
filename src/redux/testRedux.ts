@@ -3,6 +3,7 @@ import {increment, decrement, reset} from 'actions/counter';
 import store from './store';
 
 // 打印初始状态
+console.log('ddddddd');
 console.log(store.getState());
 
 // 每次state 更新时，打印日志
